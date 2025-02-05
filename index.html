@@ -3,11 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Moon</title>
+    <style>
+        body {
+            background: linear-gradient(to right, #ff9a9e, #fad0c4);
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            font-size: 2.5em;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            margin-top: 20vh;
+            animation: fadeIn 2s ease-in-out;
+        }
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 15px 30px;
+            font-size: 1.5em;
+            text-decoration: none;
+            color: white;
+            background: #ff6f61;
+            border-radius: 30px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease;
+        }
+        a:hover {
+            background: #ff4757;
+            transform: scale(1.1);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
 </head>
 <body>
-    <h1>WELCOME MY MOON PLEASE CLICK ON THIS 👇 </h1>
-    
-     <a href="file:///C:/Users/tribh/Downloads/HTML%20TUTORIAL/photos.html">MY MOON</a>
+    <h1>WELCOME MY MOON 🌙 PLEASE CLICK ON THIS 👇</h1>
+    <a href="photos.html">MY MOON</a>
 </body>
 </html>
